@@ -1,0 +1,47 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:01c86859-f4cf-4ddf-b009-940ddc588814",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-01-25T10:39:36.339Z",
+    "tools": [
+      {
+        "vendor": "AppThreat",
+        "name": "cdxgen",
+        "version": "6.0.15"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Team AppThreat",
+        "email": "cloud@appthreat.com"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "maven-project",
+      "version": "",
+      "type": "application"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.example/foobar@1.0.0-SNAPSHOT?type=jar",
+      "dependsOn": []
+    }
+  ],
+  "externalReferences": [
+    {
+      "type": "other",
+      "url": ".",
+      "comment": "Base path"
+    },
+    {
+      "type": "other",
+      "url": "/home/aman/experiments/graalvm-example/dynamic-sbom/maven-project/pom.xml",
+      "comment": "Package file"
+    }
+  ]
+}
